@@ -1,0 +1,5 @@
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: Jorge Nunez's Portfolio
+description: This is my personal portfolio website, showcasing my projects, skills, and experience in software engineering and development. The site highlights my journey as an engineer, with a focus on my technical expertise, past work, and professional achievements.
