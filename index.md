@@ -3,13 +3,28 @@ layout: default
 title: "Jorge Nunez's Portfolio"
 ---
 
-# Welcome to Jorge Nunez's Portfolio
-This is my personal portfolio showcasing my projects, skills, and experience.
+<!-- Navigation Tabs -->
+<nav>
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
+# Welcome to Jorge Nunez's Portfolio
+
+![Profile Picture](Professional headshot.jpg)
+
+This is my personal portfolio website, showcasing my projects, skills, and experience in software engineering and development. The site highlights my journey as an engineer, with a focus on my technical expertise, past work, and professional achievements.
+
+<a name="about"></a>
 ## About Me
 
 Aspiring Software Engineer!
-
+<a name="projects"></a>
 ## Projects
 
 - Cheat-Detection System & PrairieLearn Integration: 
@@ -21,6 +36,7 @@ Aspiring Software Engineer!
 
 - Pac-Man AI: Collection of projects that use Pac-Man as a platform to explore and implement foundational AI techniques, such as search algorithms, probabilistic inference, and reinforcement learning. 
 
+<a name="experience"></a>
 ## Experience
 
 Software Engineering Intern @ Qualcomm (May 2023 - Aug. 2023)
@@ -33,6 +49,16 @@ Undergraduate Research Assistant @ ACE LAB (Feb. 2021 - May 2024)
 - Collaborated with the Prairielearn project, an open-source platform for online assessments, to enhance software integration.
 - Represented the ACE Lab at two national conferences, showcasing innovations in computer science education.
 
+<a name="contact"></a>
 ## Contact
 
-Feel free to reach out to me via [email](jorge1289@berkeley.edu).
+Feel free to reach out to me via:
+
+<a href="https://www.linkedin.com/in/your-profile" target="_blank" style="margin-right: 10px;">
+  <i class="fab fa-linkedin fa-2x"></i>
+</a>
+
+<a href="https://github.com/your-username" target="_blank" style="margin-right: 10px;">
+  <i class="fab fa-github fa-2x"></i>
+</a>
+[email](mailto:jorge1289@berkeley.edu).
