@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<header>
+  <h1>Welcome to Jorge Nunez's Portfolio</h1>
+</header>
+
 <!-- Navigation Tabs -->
 <nav>
   <ul class="nav-tabs">
@@ -13,16 +17,14 @@ layout: default
   </ul>
 </nav>
 
-# Welcome to Jorge Nunez's Portfolio
-
 <img src="images/Professional headshot.jpg" alt="Profile Picture" class="profile-pic">
 
 This is my personal portfolio website, showcasing my projects, skills, and experience in software engineering and development. The site highlights my journey as an engineer, with a focus on my technical expertise, past work, and professional achievements.
 
 <a name="about"></a>
 ## About Me
-
 Aspiring Software Engineer!
+
 <a name="projects"></a>
 ## Projects
 
@@ -53,11 +55,17 @@ Undergraduate Research Assistant @ ACE LAB (Feb. 2021 - May 2024)
 
 Feel free to reach out to me via:
 
-<a href="https://www.linkedin.com/in/jorge-nunez24/" target="_blank" style="margin-right: 10px;">
-  <i class="fab fa-linkedin fa-2x"></i>
-</a>
+<div class="contact-icons">
+  <a href="https://www.linkedin.com/in/jorge-nunez24/" target="_blank" style="margin-right: 10px;">
+    <i class="fab fa-linkedin fa-2x"></i> LinkedIn
+  </a>
 
-<a href="https://github.com/jorge1289" target="_blank" style="margin-right: 10px;">
-  <i class="fab fa-github fa-2x"></i>
-</a>
+  <a href="https://github.com/jorge1289" target="_blank" style="margin-right: 10px;">
+    <i class="fab fa-github fa-2x"></i> GitHub
+  </a>
+
+  <a href="mailto:jorge1289@berkeley.edu" style="margin-right: 10px;">
+    <i class="fas fa-envelope fa-2x"></i> Email
+  </a>
+</div>
 [email](mailto:jorge1289@berkeley.edu).

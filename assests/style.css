@@ -1,5 +1,5 @@
 .profile-pic {
-    width: 150px; /* Change this value to adjust the size */
+    width: 100px; /* Change this value to adjust the size */
     height: auto; /* Keeps the aspect ratio */
 }
 
@@ -29,14 +29,16 @@
 }
 
 /* Social Icons */
-i {
-    color: #007BFF;
-    margin-right: 10px;
-    transition: color 0.3s ease;
+.contact-icons a {
+    margin-right: 15px; /* Space between icons */
+    color: #007BFF; /* Icon color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px; /* Add padding for better clickability */
 }
 
-i:hover {
-    color: #0056b3;
+.contact-icons a:hover {
+    color: #0056b3; /* Darker color on hover */
+    transition: color 0.3s ease; /* Smooth transition */
 }
 
 body {
@@ -79,4 +81,3 @@ a {
 a:hover {
     text-decoration: underline; /* Underline on hover */
 }
-
