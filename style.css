@@ -1,3 +1,39 @@
+/* Navigation Bar */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #007BFF;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+/* Social Icons */
+i {
+    color: #007BFF;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+i:hover {
+    color: #0056b3;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
