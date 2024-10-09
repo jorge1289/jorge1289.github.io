@@ -1,26 +1,31 @@
-/* Navigation Bar */
-nav ul {
+.profile-pic {
+    width: 150px; /* Change this value to adjust the size */
+    height: auto; /* Keeps the aspect ratio */
+}
+
+/* Navigation Tabs */
+.nav-tabs {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: #007BFF;
+    background-color: #007BFF; /* Change as needed */
     overflow: hidden;
 }
 
-nav ul li {
-    float: left;
+.nav-tabs li {
+    float: left; /* Align tabs horizontally */
 }
 
-nav ul li a {
+.nav-tabs li a {
     display: block;
-    color: white;
+    color: white; /* Text color */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-nav ul li a:hover {
-    background-color: #0056b3;
+.nav-tabs li a:hover {
+    background-color: #0056b3; /* Darker color on hover */
 }
 
 /* Social Icons */
@@ -74,3 +79,4 @@ a {
 a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+

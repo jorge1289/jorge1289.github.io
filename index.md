@@ -1,11 +1,10 @@
 ---
 layout: default
-title: "Jorge Nunez's Portfolio"
 ---
 
 <!-- Navigation Tabs -->
 <nav>
-  <ul>
+  <ul class="nav-tabs">
     <li><a href="#about">About Me</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#skills">Skills</a></li>
@@ -16,7 +15,7 @@ title: "Jorge Nunez's Portfolio"
 
 # Welcome to Jorge Nunez's Portfolio
 
-![Profile Picture](Professional headshot.jpg)
+<img src="images/Professional headshot.jpg" alt="Profile Picture" class="profile-pic">
 
 This is my personal portfolio website, showcasing my projects, skills, and experience in software engineering and development. The site highlights my journey as an engineer, with a focus on my technical expertise, past work, and professional achievements.
 
