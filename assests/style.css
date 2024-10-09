@@ -1,6 +1,17 @@
+/* Profile Picture */
 .profile-pic {
-    width: 100px; /* Change this value to adjust the size */
+    width: 150px; /* Adjust this value to change the size of the profile picture */
     height: auto; /* Keeps the aspect ratio */
+    float: left; /* Aligns the picture to the left */
+    margin-right: 20px; /* Space between the picture and the text */
+    margin-bottom: 20px; /* Space below the picture */
+}
+
+/* Clearfix for sections containing floated elements */
+section::after {
+    content: "";
+    display: table;
+    clear: both; /* Clears floated elements */
 }
 
 /* Navigation Tabs */
@@ -29,16 +40,14 @@
 }
 
 /* Social Icons */
-.contact-icons a {
-    margin-right: 15px; /* Space between icons */
-    color: #007BFF; /* Icon color */
-    text-decoration: none; /* Remove underline */
-    padding: 5px; /* Add padding for better clickability */
+i {
+    color: #007BFF;
+    margin-right: 10px;
+    transition: color 0.3s ease;
 }
 
-.contact-icons a:hover {
-    color: #0056b3; /* Darker color on hover */
-    transition: color 0.3s ease; /* Smooth transition */
+i:hover {
+    color: #0056b3;
 }
 
 body {
