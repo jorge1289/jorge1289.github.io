@@ -54,11 +54,11 @@ Undergraduate Research Assistant @ ACE LAB (Feb. 2021 - May 2024)
 
 Feel free to reach out to me via:
 
-<a href="https://www.linkedin.com/in/your-profile" target="_blank" style="margin-right: 10px;">
+<a href="https://www.linkedin.com/in/jorge-nunez24/" target="_blank" style="margin-right: 10px;">
   <i class="fab fa-linkedin fa-2x"></i>
 </a>
 
-<a href="https://github.com/your-username" target="_blank" style="margin-right: 10px;">
+<a href="https://github.com/jorge1289" target="_blank" style="margin-right: 10px;">
   <i class="fab fa-github fa-2x"></i>
 </a>
 [email](mailto:jorge1289@berkeley.edu).
