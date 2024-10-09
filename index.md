@@ -68,4 +68,3 @@ Feel free to reach out to me via:
     <i class="fas fa-envelope fa-2x"></i> Email
   </a>
 </div>
-[email](mailto:jorge1289@berkeley.edu).
