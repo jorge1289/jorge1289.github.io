@@ -8,7 +8,7 @@
 }
 
 /* Clearfix for sections containing floated elements */
-section::after {
+.intro::after {
     content: "";
     display: table;
     clear: both; /* Clears floated elements */
@@ -39,15 +39,16 @@ section::after {
     background-color: #0056b3; /* Darker color on hover */
 }
 
-/* Social Icons */
-i {
+/* Contact Icons */
+.contact-icons a {
     color: #007BFF;
-    margin-right: 10px;
+    text-decoration: none;
+    margin-right: 10px; /* Space between icons */
     transition: color 0.3s ease;
 }
 
-i:hover {
-    color: #0056b3;
+.contact-icons a:hover {
+    color: #0056b3; /* Change color on hover */
 }
 
 body {
@@ -75,11 +76,6 @@ section {
     background: #fff; /* White background for sections */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-
-ul {
-    list-style-type: none; /* Remove default list style */
-    padding: 0;
 }
 
 a {
