@@ -1,1 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+}
 
+header {
+    background: #007BFF; /* Bootstrap primary color */
+    color: #fff; /* White text */
+    padding: 1em;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #007BFF; /* Same as header */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #fff; /* White background for sections */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0;
+}
+
+a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
