@@ -1,0 +1,100 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+/* Header Styles */
+header {
+    background: #007BFF; /* Header background color */
+    color: #fff; /* Text color */
+    padding: 1em;
+    text-align: center;
+}
+
+/* Navigation Tab Styles */
+.nav-tabs {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #007BFF; /* Same as header background */
+    overflow: hidden;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the tabs horizontally */
+}
+
+.nav-tabs li {
+    margin: 0; /* Remove default margin */
+}
+
+.nav-tabs li a {
+    display: block;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 14px 20px; /* Adjust padding for better spacing */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-tabs li a:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Profile Picture Styles */
+.profile-pic {
+    width: 150px; /* Increase size for better visibility */
+    height: auto; /* Maintain aspect ratio */
+    float: left; /* Aligns the picture to the left */
+    margin-right: 20px; /* Space between the picture and the text */
+    margin-bottom: 20px; /* Space below the picture */
+    border-radius: 50%; /* Makes the profile picture circular */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for better contrast */
+}
+
+/* Clearfix for floated elements */
+.intro::after {
+    content: "";
+    display: table;
+    clear: both; /* Clears floated elements */
+}
+
+/* Contact Icons Styles */
+.contact-icons a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 10px; /* Space between icons */
+    font-size: 1.2em; /* Increase icon size for better visibility */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.contact-icons a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* General Section Styling */
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #fff; /* White background for sections */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
