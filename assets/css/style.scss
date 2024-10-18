@@ -21,7 +21,7 @@ header {
 }
 
 /* Navigation Tab Styles */
-.nav-tabs {
+nav {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -31,11 +31,11 @@ header {
     justify-content: center; /* Center the tabs horizontally */
 }
 
-.nav-tabs li {
+nav li {
     margin: 0; /* Remove default margin */
 }
 
-.nav-tabs li a {
+nav li a {
     display: block;
     color: white; /* Text color */
     text-align: center;
@@ -44,7 +44,7 @@ header {
     transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
-.nav-tabs li a:hover {
+nav li a:hover {
     background-color: #0056b3; /* Darker color on hover */
 }
 
