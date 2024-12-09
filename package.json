@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-react": "^7.22.0",
+    "parcel": "^2.9.0"
+  },
+  "scripts": {
+    "build": "parcel build assets/js/react-init.js --dist-dir assets/dist",
+    "watch": "parcel watch assets/js/react-init.js --dist-dir assets/dist"
+  }
+} 

@@ -24,6 +24,12 @@ title: Jorge Nunez's Portfolio
         <li><strong>Gitlet:</strong> A simplified version-control system inspired by Git, designed to implement essential features for managing and tracking changes in a collection of files.</li>
         <li><strong>Pac-Man AI:</strong> Collection of projects that use Pac-Man as a platform to explore and implement foundational AI techniques, such as search algorithms, probabilistic inference, and reinforcement learning.</li>
     </ul>
+
+    <div class="project-showcase" id="pacman-showcase">
+        <h3>Pac-Man AI Demo</h3>
+        <!-- Add a visible container with a border -->
+        <div id="root" class="border p-4 mt-4 rounded-lg bg-white"></div>
+    </div>
 </section>
 
 <section id="experience" class="tab-content">
